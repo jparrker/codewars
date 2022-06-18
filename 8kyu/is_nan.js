@@ -14,6 +14,8 @@
 // isDigit("zero")
 
 //better parseFloat(s) === Number(s)
+
+
 function isDigit(s) {
   return !isNaN(s) && s!==' ' && s!== ''
 }
